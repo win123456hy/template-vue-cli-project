@@ -1,0 +1,43 @@
+.border{
+  border: solid 1px @border-color-base;
+}
+
+.border-primary {
+  border-color: @primary-color !important;
+}
+
+
+.border-white {
+  border-color: solid 1px @border-color-white !important;
+}
+
+.border-left{
+  border-left: solid 1px @border-color-base;
+}
+
+.border-right{
+  border-right: solid 1px @border-color-base;
+}
+
+.border-top{
+  border-top: solid 1px @border-color-base;
+  &--dark{
+    border-top: solid 1px darken(@border-color-base, 70%);
+  }
+}
+
+.border-bottom{
+  border-bottom: solid 1px @border-color-base;
+}
+
+.bd-rd-4{
+  border-radius: 4px;
+}
+
+.bd-rd-5{
+  border-radius: 5px;
+}
+
+.bd-rounded{
+  border-radius: 999px;
+}
